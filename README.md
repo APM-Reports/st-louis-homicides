@@ -8,9 +8,9 @@ It was compiled from spreadsheets and homicide incident reports provided by the 
 Download the data from Github if you'd like to explore it further.
 
 # About the definitions
-We relied on the police department's designation of cases as homicides, which typically result in charges of murder or willful manslaughter. Homicides deemd by the police as justifiable -- when police officer officers or private citizens kill someone who was alelgedly committing -- were excluded from this dataset.
+We relied on the police department's designation of cases as homicides, which typically result in charges of murder or willful manslaughter. Homicides deemed by the police as justifiable -- when police officer officers or private citizens kill someone who was alelgedly committing -- were excluded from this dataset.
 
-Cases are considered “cleared” when police have arrested a suspect, charged them and turned the case over for prosecution; or when police have fully identified a suspect but cannot take them into custody for any reason, including when a suspect has died or cannot be extradited. 
+`clearance_status` can either be 'closed' or 'open'. 'Closed' cases are either cleared by arrest or cleared exceptionally (ie. when police have fully identified a suspect but cannot take them into custody)
 
 Our analysis relied on the police department’s determinations of victims’ races. 
 
